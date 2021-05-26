@@ -10,10 +10,10 @@ function App() {
   async function run() {
     setError(false);
     setCondition(false);
-    console.log(inputRef.current.value)
+    console.log(inputRef.current.value);
     let city = inputRef.current.value;
     let url =
-      "http://api.weatherapi.com/v1/current.json?key=" +
+      "https://api.weatherapi.com/v1/current.json?key=" +
       APIkey +
       "&q=" +
       city +
